@@ -14,5 +14,6 @@ class MainActivity : AppCompatActivity() {
     fun btnCurrentClick(v: View){
         val txtResult = findViewById<TextView>(R.id.txtResult)
         txtResult.text = Date().toString()
+
     }
 }
